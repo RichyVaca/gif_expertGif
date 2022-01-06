@@ -1,8 +1,8 @@
 {
-  "homepage": "https://richyvaca.github.io/React-GifExpertApp/",
   "name": "gift-expert-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://richyvaca.github.io/gif_expertGif/gifexpertfig",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -14,13 +14,12 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [
